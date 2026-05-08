@@ -1,0 +1,33 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show toolchain
+        run: swift --version
+      - name: Build (release, arm64)
+        run: swift build -c release --arch arm64
+      - name: Run tests
+        run: swift test
+      - name: Make .app bundle
+        run: ./scripts/make-app.sh
+      - name: Sanity check bundle
+        run: |
+          test -x build/OpenMacBattery.app/Contents/MacOS/OpenMacBattery
+          test -x build/OpenMacBattery.app/Contents/Resources/openmacbattery
+          ls build/OpenMacBattery.app/Contents/Resources/ | grep -c lproj
+      - name: Upload artifact
+        if: github.event_name == 'workflow_dispatch' || startsWith(github.ref, 'refs/tags/')
+        uses: actions/upload-artifact@v4
+        with:
+          name: OpenMacBattery-${{ github.sha }}
+          path: build/OpenMacBattery.app

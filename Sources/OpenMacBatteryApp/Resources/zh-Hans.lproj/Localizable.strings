@@ -1,0 +1,190 @@
+/* 简体中文 — Simplified Chinese */
+
+/* Energy levels */
+"High" = "高";
+"Medium" = "中";
+"Low" = "低";
+"Minimal" = "极低";
+
+/* Time ranges */
+"Last hour" = "最近一小时";
+"Last 6 hours" = "最近 6 小时";
+"Today" = "今天";
+"This week" = "本周";
+"This month" = "本月";
+
+/* Toolbar */
+"Range" = "范围";
+"On battery only" = "仅电池供电时";
+"All measurements" = "所有测量";
+"Showing measurements taken while on battery — click to include all" = "仅显示电池供电时的数据 — 点击查看全部";
+"Showing all measurements — click to filter to battery only" = "显示所有测量数据 — 点击筛选仅电池供电时";
+"Show system services" = "显示系统服务";
+"Settings…" = "设置…";
+"Display options and settings" = "显示选项和设置";
+"Battery details (⌥⌘B)" = "电池详情 (⌥⌘B)";
+
+/* Sidebar */
+"%lld apps" = "%lld 个应用";
+"Collecting data" = "正在收集数据";
+"OpenMacBattery is monitoring your apps in the background. First measurements will arrive within 1-2 minutes." = "OpenMacBattery 正在后台监控您的应用。首次测量数据将在 1-2 分钟内出现。";
+"%lld samples so far" = "已采样 %lld 次";
+"Last sample %@" = "上次采样 %@";
+"No measurements yet" = "尚无测量";
+"refreshed %@" = "刷新于 %@";
+"system" = "系统";
+
+/* Context menu */
+"Quit %@" = "退出 %@";
+"Force Quit" = "强制退出";
+"System services cannot be quit from here" = "此处无法退出系统服务";
+"No running instance found" = "未找到运行中的实例";
+"Open in Activity Monitor" = "在活动监视器中打开";
+"Show in Finder" = "在访达中显示";
+"Force Quit %@?" = "强制退出 %@?";
+"Cancel" = "取消";
+"Unsaved changes may be lost." = "未保存的更改可能会丢失。";
+
+/* Live watts card */
+"Charging now (~%@ W in)" = "正在充电 (输入约 %@ W)";
+"Drawing now: %@ watts" = "当前消耗: %@ 瓦";
+
+/* Battery life card */
+"%lld%% · charging — full in %@" = "%1$lld%% · 充电中 — %2$@ 后充满";
+"%lld%% · charging" = "%lld%% · 充电中";
+"%lld%% · plugged in (not charging)" = "%lld%% · 已接电源 (未充电)";
+"%lld%% · ~%@ of battery left" = "%1$lld%% · 剩余约 %2$@";
+"%lld%% · on battery" = "%lld%% · 使用电池";
+"Last hour avg: %.1f W" = "最近 1 小时均值: %.1f W";
+"macOS estimate: %@" = "macOS 估算: %@";
+"Capacity" = "容量";
+"Health" = "健康度";
+"Cycles" = "循环";
+"%d h %d min" = "%1$d 小时 %2$d 分";
+"%d min" = "%d 分钟";
+
+/* Hero card */
+"%@: battery dropped %lld%% — mainly %@ (%lld%%)" = "%1$@: 电池下降 %2$lld%% — 主要是 %3$@ (%4$lld%%)";
+"%@: battery dropped %lld%%" = "%1$@: 电池下降 %2$lld%%";
+"%@: plugged in the whole time — no battery use" = "%@: 全程接电 — 未使用电池";
+"%@: top consumer was %@ (%lld%%)" = "%1$@: 主要消耗者 %2$@ (%3$lld%%)";
+"%@: not enough data yet" = "%@: 数据不足";
+"on battery for %@" = "电池供电 %@";
+"plugged in for %@" = "接电 %@";
+"asleep for %@" = "睡眠 %@";
+"%dh %dm" = "%d时 %d分";
+"%dm" = "%d分";
+"battery %lld%% → %lld%%" = "电池 %1$lld%% → %2$lld%%";
+
+/* Compare card */
+"Compared to the previous %@" = "与上一个%@相比";
+"Need a bit more data to compare with previous period" = "需要更多数据才能与上一个周期比较";
+"%lld%% less battery used than the previous %@" = "比上一个%2$@少用了 %1$lld%% 的电量";
+"%lld%% more battery used than the previous %@" = "比上一个%2$@多用了 %1$lld%% 的电量";
+"Similar to the previous %@ (%lld%% difference)" = "与上一个%1$@相似 (差异 %2$lld%%)";
+
+/* Tip card */
+"You're on battery — %@ is using %lld%% of your battery load" = "您在使用电池 — %1$@ 占用了电池负载的 %2$lld%%";
+"If it doesn't need to run in the background while on battery, consider quitting it." = "若电池供电时无需后台运行,考虑退出它。";
+
+/* Narrative card */
+"%@ was active for %lld hours %lld minutes" = "%1$@ 活跃 %2$lld 小时 %3$lld 分钟";
+"%@ was active for %lld minutes" = "%1$@ 活跃 %2$lld 分钟";
+"Peak hour: around %@" = "高峰时段: %@ 左右";
+
+/* Empty state */
+"OpenMacBattery just started. The daemon is checking all apps every minute in the background — charts will fill in within a few minutes." = "OpenMacBattery 刚刚启动。后台守护进程每分钟检查一次所有应用 — 几分钟后图表将填满。";
+"Nothing to show in this range" = "此范围内无数据";
+"Try a different time range from the toolbar." = "请尝试工具栏中的其他时间范围。";
+"System" = "系统";
+
+/* Summary cards */
+"Battery share" = "电池占比";
+"CPU time" = "CPU 时间";
+"Wakeups" = "唤醒次数";
+
+/* Charts */
+"Consumption over time" = "消耗随时间";
+"No data in this range." = "此范围内无数据。";
+"Battery level" = "电池电量";
+"No battery readings." = "无电池读数。";
+"asleep" = "睡眠";
+"on battery" = "电池供电";
+"plugged in" = "已接电源";
+"Top consumers" = "主要消耗者";
+"No data." = "无数据。";
+
+/* Refresh ring */
+"Live watts · next update in %ds · click to refresh now" = "实时功率 · 下次更新 %d 秒后 · 点击立即刷新";
+
+/* Battery details popover */
+"Battery Details" = "电池详情";
+"Full Charge Capacity" = "满充容量";
+"Design Capacity" = "设计容量";
+"Charge Cycles" = "充电循环";
+"Manufacture Date" = "生产日期";
+"Battery Temperature" = "电池温度";
+"Voltage" = "电压";
+"Charging current" = "充电电流";
+"Drawing" = "电流";
+"Discharging with" = "放电电流";
+"Full at" = "满电时";
+"Energy now" = "当前能量";
+"Low Power Mode" = "低电量模式";
+"Enabled" = "开启";
+"Disabled" = "关闭";
+"macOS estimate" = "macOS 估算";
+"Serial" = "序列号";
+"Could not read battery information." = "无法读取电池信息。";
+"Refreshes every 15 seconds" = "每 15 秒刷新一次";
+"Refresh now" = "立即刷新";
+" (good)" = " (良好)";
+" (fair)" = " (一般)";
+" (poor)" = " (较差)";
+
+/* About + Help */
+"OpenMacBattery Help" = "OpenMacBattery 帮助";
+"About OpenMacBattery" = "关于 OpenMacBattery";
+"Battery Details…" = "电池详情…";
+"Refresh" = "刷新";
+
+/* Settings */
+"Background tracking" = "后台跟踪";
+"On — apps are sampled every minute." = "已开启 — 每分钟采样一次。";
+"Off — no new data being collected." = "已关闭 — 不再收集新数据。";
+"Tracking" = "跟踪";
+"Open log (Console.app)" = "打开日志 (控制台.app)";
+"Open error log" = "打开错误日志";
+"Open data folder" = "打开数据文件夹";
+"Diagnostics" = "诊断";
+"Calibration" = "校准";
+"Copy command" = "复制命令";
+"Remove background tracking entirely" = "完全移除后台跟踪";
+"Advanced" = "高级";
+"Background tracking removed." = "后台跟踪已移除。";
+"Enabled." = "已启用。";
+"Disabled." = "已禁用。";
+"Error" = "错误";
+
+/* Onboarding */
+"Welcome to OpenMacBattery" = "欢迎使用 OpenMacBattery";
+"Checks every running app on your Mac once per minute." = "每分钟检查一次 Mac 上运行的所有应用。";
+"Tells you which app drained your battery — looking back, not just now." = "告诉您哪个应用消耗了电池 — 不只是当下,还有过去。";
+"Your data stays on this Mac. Nothing is sent over the network." = "数据仅保存在此 Mac 上。不会发送到网络。";
+"Uses almost no battery itself (~1-2 joules per hour)." = "本身几乎不耗电 (每小时约 1-2 焦耳)。";
+"Background tracking enabled." = "后台跟踪已启用。";
+"Close" = "关闭";
+"Try again" = "重试";
+"Installing…" = "安装中…";
+"Enable background tracking" = "启用后台跟踪";
+"Not now" = "暂不";
+"You can toggle this anytime in ⚙ Settings." = "您可以随时在 ⚙ 设置中切换。";
+
+
+/* Language menu */
+"Language" = "语言";
+"Use system language" = "使用系统语言";
+"Restart to change language" = "重新启动以更改语言";
+"OpenMacBattery needs to restart for the new language to take effect." = "需要重新启动 OpenMacBattery 才能应用新语言。";
+"Restart Now" = "立即重启";
+"Later" = "稍后";

@@ -1,0 +1,160 @@
+/* 日本語 — Japanese */
+
+"High" = "高";
+"Medium" = "中";
+"Low" = "低";
+"Minimal" = "最小";
+
+"Last hour" = "直近1時間";
+"Last 6 hours" = "直近6時間";
+"Today" = "今日";
+"This week" = "今週";
+"This month" = "今月";
+
+"Range" = "範囲";
+"On battery only" = "バッテリー駆動時のみ";
+"All measurements" = "すべての測定";
+"Show system services" = "システムサービスを表示";
+"Settings…" = "設定…";
+"Battery details (⌥⌘B)" = "バッテリー詳細 (⌥⌘B)";
+
+"%lld apps" = "%lld 個のApp";
+"Collecting data" = "データ収集中";
+"OpenMacBattery is monitoring your apps in the background. First measurements will arrive within 1-2 minutes." = "OpenMacBattery はバックグラウンドでAppを監視しています。最初の測定は1〜2分で表示されます。";
+"%lld samples so far" = "これまでに %lld 件";
+"Last sample %@" = "最終測定 %@";
+"No measurements yet" = "まだ測定がありません";
+"refreshed %@" = "更新 %@";
+"system" = "システム";
+
+"Quit %@" = "%@ を終了";
+"Force Quit" = "強制終了";
+"System services cannot be quit from here" = "システムサービスはここから終了できません";
+"No running instance found" = "実行中のインスタンスが見つかりません";
+"Open in Activity Monitor" = "アクティビティモニタで開く";
+"Show in Finder" = "Finder で表示";
+"Force Quit %@?" = "%@ を強制終了しますか?";
+"Cancel" = "キャンセル";
+"Unsaved changes may be lost." = "未保存の変更が失われる可能性があります。";
+
+"Charging now (~%@ W in)" = "充電中 (~%@ W入力)";
+"Drawing now: %@ watts" = "現在の消費: %@ ワット";
+
+"%lld%% · charging — full in %@" = "%1$lld%% · 充電中 — %2$@ で満充電";
+"%lld%% · charging" = "%lld%% · 充電中";
+"%lld%% · plugged in (not charging)" = "%lld%% · 接続済み (充電なし)";
+"%lld%% · ~%@ of battery left" = "%1$lld%% · 残り約 %2$@";
+"%lld%% · on battery" = "%lld%% · バッテリー駆動";
+"Last hour avg: %.1f W" = "直近1時間平均: %.1f W";
+"macOS estimate: %@" = "macOS の推定: %@";
+"Capacity" = "容量";
+"Health" = "状態";
+"Cycles" = "サイクル";
+"%d h %d min" = "%1$d 時間 %2$d 分";
+"%d min" = "%d 分";
+
+"%@: battery dropped %lld%% — mainly %@ (%lld%%)" = "%1$@: バッテリーが %2$lld%% 減少 — 主に %3$@ (%4$lld%%)";
+"%@: battery dropped %lld%%" = "%1$@: バッテリーが %2$lld%% 減少";
+"%@: plugged in the whole time — no battery use" = "%@: ずっと接続中 — バッテリー消費なし";
+"%@: top consumer was %@ (%lld%%)" = "%1$@: 最大の消費は %2$@ (%3$lld%%)";
+"%@: not enough data yet" = "%@: データがまだ不足";
+"on battery for %@" = "バッテリー駆動 %@";
+"plugged in for %@" = "接続中 %@";
+"asleep for %@" = "スリープ %@";
+"battery %lld%% → %lld%%" = "バッテリー %1$lld%% → %2$lld%%";
+
+"Compared to the previous %@" = "前回の%@との比較";
+"Need a bit more data to compare with previous period" = "前期間と比較するにはもう少しデータが必要です";
+"%lld%% less battery used than the previous %@" = "前回の%2$@より %1$lld%% 少なく使用";
+"%lld%% more battery used than the previous %@" = "前回の%2$@より %1$lld%% 多く使用";
+"Similar to the previous %@ (%lld%% difference)" = "前回の%1$@と同程度 (%2$lld%% の差)";
+
+"You're on battery — %@ is using %lld%% of your battery load" = "バッテリー駆動中 — %1$@ がバッテリー負荷の %2$lld%% を消費";
+"If it doesn't need to run in the background while on battery, consider quitting it." = "バックグラウンド実行が不要なら終了を検討してください。";
+
+"%@ was active for %lld hours %lld minutes" = "%1$@ は %2$lld 時間 %3$lld 分間アクティブ";
+"%@ was active for %lld minutes" = "%1$@ は %2$lld 分間アクティブ";
+"Peak hour: around %@" = "ピーク時間: %@ 頃";
+
+"Nothing to show in this range" = "この範囲にデータはありません";
+"Try a different time range from the toolbar." = "ツールバーから別の時間範囲を試してください。";
+"System" = "システム";
+
+"Battery share" = "バッテリー比率";
+"CPU time" = "CPU 時間";
+"Wakeups" = "ウェイクアップ";
+
+"Consumption over time" = "時間ごとの消費";
+"No data in this range." = "この範囲にデータはありません。";
+"Battery level" = "バッテリー残量";
+"No battery readings." = "バッテリー読み取りなし。";
+"asleep" = "スリープ";
+"on battery" = "バッテリー";
+"plugged in" = "接続中";
+"Top consumers" = "上位消費者";
+"No data." = "データなし。";
+
+"Live watts · next update in %ds · click to refresh now" = "リアルタイムワット · 次の更新 %d 秒後 · クリックで即更新";
+
+"Battery Details" = "バッテリー詳細";
+"Full Charge Capacity" = "満充電容量";
+"Design Capacity" = "設計容量";
+"Charge Cycles" = "充電サイクル";
+"Manufacture Date" = "製造日";
+"Battery Temperature" = "バッテリー温度";
+"Voltage" = "電圧";
+"Charging current" = "充電電流";
+"Drawing" = "消費";
+"Discharging with" = "放電電流";
+"Full at" = "満充電時";
+"Energy now" = "現在のエネルギー";
+"Low Power Mode" = "低電力モード";
+"Enabled" = "オン";
+"Disabled" = "オフ";
+"macOS estimate" = "macOS 推定";
+"Serial" = "シリアル";
+"Refreshes every 15 seconds" = "15 秒ごとに更新";
+"Refresh now" = "今すぐ更新";
+" (good)" = " (良好)";
+" (fair)" = " (普通)";
+" (poor)" = " (劣化)";
+
+"OpenMacBattery Help" = "OpenMacBattery ヘルプ";
+"About OpenMacBattery" = "OpenMacBattery について";
+"Battery Details…" = "バッテリー詳細…";
+"Refresh" = "更新";
+
+"Background tracking" = "バックグラウンド追跡";
+"On — apps are sampled every minute." = "オン — Appを毎分サンプリング。";
+"Off — no new data being collected." = "オフ — 新しいデータは収集されません。";
+"Tracking" = "追跡";
+"Open log (Console.app)" = "ログを開く (コンソール.app)";
+"Open error log" = "エラーログを開く";
+"Open data folder" = "データフォルダを開く";
+"Diagnostics" = "診断";
+"Calibration" = "キャリブレーション";
+"Copy command" = "コマンドをコピー";
+"Remove background tracking entirely" = "バックグラウンド追跡を完全に削除";
+"Advanced" = "詳細";
+
+"Welcome to OpenMacBattery" = "OpenMacBattery へようこそ";
+"Checks every running app on your Mac once per minute." = "Mac で実行中のすべてのAppを毎分チェックします。";
+"Tells you which app drained your battery — looking back, not just now." = "どのAppがバッテリーを消費したかを過去に遡って表示します。";
+"Your data stays on this Mac. Nothing is sent over the network." = "データはこの Mac だけに保存されます。ネットワーク送信はありません。";
+"Uses almost no battery itself (~1-2 joules per hour)." = "本体はほとんど電力を使いません (1時間あたり約1〜2ジュール)。";
+"Background tracking enabled." = "バックグラウンド追跡が有効になりました。";
+"Close" = "閉じる";
+"Try again" = "再試行";
+"Installing…" = "インストール中…";
+"Enable background tracking" = "バックグラウンド追跡を有効にする";
+"Not now" = "あとで";
+"You can toggle this anytime in ⚙ Settings." = "⚙ 設定でいつでも切り替えられます。";
+
+
+/* Language menu */
+"Language" = "言語";
+"Use system language" = "システム言語を使用";
+"Restart to change language" = "言語を変更するには再起動";
+"OpenMacBattery needs to restart for the new language to take effect." = "新しい言語を適用するには OpenMacBattery を再起動する必要があります。";
+"Restart Now" = "今すぐ再起動";
+"Later" = "あとで";

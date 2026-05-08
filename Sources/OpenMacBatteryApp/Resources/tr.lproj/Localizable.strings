@@ -1,0 +1,203 @@
+/* Energy levels */
+"High" = "Yüksek";
+"Medium" = "Orta";
+"Low" = "Düşük";
+"Minimal" = "Minimum";
+
+/* Time ranges */
+"Last hour" = "Son saat";
+"Last 6 hours" = "Son 6 saat";
+"Today" = "Bugün";
+"This week" = "Bu hafta";
+"This month" = "Bu ay";
+
+/* Toolbar */
+"Range" = "Aralık";
+"On battery only" = "Sadece pildeyken";
+"All measurements" = "Tüm ölçümler";
+"Showing measurements taken while on battery — click to include all" = "Şu an sadece pildeyken alınan ölçümler — tıkla, hepsi gelsin";
+"Showing all measurements — click to filter to battery only" = "Şu an tüm ölçümler gösteriliyor — tıkla, sadece pildeki kalsın";
+"Show system services" = "Sistem servislerini göster";
+"Settings…" = "Ayarlar…";
+"Display options and settings" = "Görüntüleme seçenekleri ve ayarlar";
+"Battery details (⌥⌘B)" = "Pil bilgileri (⌥⌘B)";
+
+/* Sidebar */
+"%lld apps" = "%lld uygulama";
+"Collecting data" = "Veri toplanıyor";
+"OpenMacBattery is monitoring your apps in the background. First measurements will arrive within 1-2 minutes." = "OpenMacBattery arka planda uygulamaları izliyor. İlk veriler 1-2 dakika içinde gelir.";
+"%lld samples so far" = "Şu ana kadar %lld ölçüm";
+"Last sample %@" = "Son ölçüm %@";
+"No measurements yet" = "Henüz ölçüm yok";
+"refreshed %@" = "yenilendi %@";
+"system" = "sistem";
+
+/* Context menu */
+"Quit %@" = "%@ uygulamasını kapat";
+"Force Quit" = "Zorla Kapat";
+"System services cannot be quit from here" = "Sistem servisleri buradan kapatılamaz";
+"No running instance found" = "Çalışan kayıt bulunamadı";
+"Open in Activity Monitor" = "Activity Monitor'da aç";
+"Show in Finder" = "Finder'da göster";
+"Force Quit %@?" = "%@ zorla kapatılsın mı?";
+"Cancel" = "Vazgeç";
+"Unsaved changes may be lost." = "Kaydedilmemiş değişiklikler kaybolabilir.";
+
+/* Anomaly */
+"%@ is consuming %@ battery" = "%@ %@ daha fazla pil tüketiyor";
+
+/* Live watts card */
+"Charging now (~%@ W in)" = "Şu an şarj oluyor (~%@ W giriyor)";
+"Drawing now: %@ watts" = "Şu an çekiliyor: %@ watt";
+
+/* Battery life card — positional args */
+"%lld%% · charging — full in %@" = "%%%1$lld · şarj oluyor — tam dolu %2$@ sonra";
+"%lld%% · charging" = "%%%lld · şarj oluyor";
+"%lld%% · plugged in (not charging)" = "%%%lld · adaptöre bağlı (şarj yok)";
+"%lld%% · ~%@ of battery left" = "%%%1$lld · ~%2$@ pil ömrü kaldı";
+"%lld%% · on battery" = "%%%lld · pildeyken";
+"Last hour avg: %.1f W" = "Son 1 saat ortalama: %.1f W";
+"macOS estimate: %@" = "macOS tahmini: %@";
+"Capacity" = "Kapasite";
+"Health" = "Sağlık";
+"Cycles" = "Döngü";
+"%d h %d min" = "%1$d saat %2$d dk";
+"%d min" = "%d dk";
+
+/* Hero card — positional args (Swift args order: range, delta, displayName, p) */
+"%@: battery dropped %lld%% — mainly %@ (%lld%%)" = "%1$@: pilin %%%2$lld düştü — başlıca %3$@ (%%%4$lld)";
+"%@: battery dropped %lld%%" = "%1$@: pilin %%%2$lld düştü";
+"%@: plugged in the whole time — no battery use" = "%@: tüm zaman şarjdaydın — pil tüketimi yok";
+"%@: top consumer was %@ (%lld%%)" = "%1$@: en çok pil yiyen: %2$@ (%%%3$lld)";
+"%@: not enough data yet" = "%@: henüz yeterli veri yok";
+"on battery for %@" = "%@ pildeydin";
+"plugged in for %@" = "%@ şarjdaydın";
+"asleep for %@" = "%@ uykudaydı";
+"%dh %dm" = "%ds %ddk";
+"%dm" = "%ddk";
+"battery %lld%% → %lld%%" = "pil %%%1$lld → %%%2$lld";
+
+/* Compare card */
+"Compared to the previous %@" = "Bir önceki %@ ile karşılaştırma";
+"Need a bit more data to compare with previous period" = "Önceki dönemle karşılaştırma için biraz daha veri gerek";
+/* Compare — Swift args: (Int absVal, String cmp) */
+"%lld%% less battery used than the previous %@" = "Bu %2$@ öncekinden %%%1$lld daha az pil tükettin";
+"%lld%% more battery used than the previous %@" = "Bu %2$@ öncekinden %%%1$lld daha fazla pil tükettin";
+"Similar to the previous %@ (%lld%% difference)" = "Bu %1$@ öncekiyle benzer (%%%2$lld fark)";
+
+/* Tip card — Swift args: (String displayName, Int p) */
+"You're on battery — %@ is using %lld%% of your battery load" = "Şu an pildesin — %1$@ pil yükünün %%%2$lld'ünü tüketiyor";
+"If it doesn't need to run in the background while on battery, consider quitting it." = "Pildeyken arka planda çalışmasına gerek yoksa kapatmayı düşünebilirsin.";
+
+/* Narrative card — Swift args: (displayName, h, m) */
+"%@ was active for %lld hours %lld minutes" = "%1$@ bu aralıkta %2$lld saat %3$lld dakika aktifti";
+"%@ was active for %lld minutes" = "%1$@ bu aralıkta %2$lld dakika aktifti";
+"Peak hour: around %@" = "En yoğun olduğu saat: %@ civarı";
+
+/* Empty state */
+"OpenMacBattery just started. The daemon is checking all apps every minute in the background — charts will fill in within a few minutes." = "OpenMacBattery yeni başladı. Daemon arka planda her dakika tüm uygulamaları kontrol ediyor — birkaç dakika içinde grafikler dolacak.";
+"Nothing to show in this range" = "Bu aralıkta gösterilecek bir şey yok";
+"Try a different time range from the toolbar." = "Üst menüden farklı bir zaman aralığı seçmeyi dene.";
+"System" = "Sistem";
+
+/* Summary cards */
+"Battery share" = "Pildeki payı";
+"CPU time" = "Çalışma süresi";
+"Wakeups" = "Uyandırma";
+
+/* Charts */
+"Consumption over time" = "Zaman içinde tüketim";
+"No data in this range." = "Bu aralıkta veri yok.";
+"Battery level" = "Pil seviyesi";
+"No battery readings." = "Pil okuması yok.";
+"asleep" = "uyku";
+"on battery" = "pildeyken";
+"plugged in" = "şarjdayken";
+"Top consumers" = "En çok tüketenler";
+"No data." = "Veri yok.";
+
+/* Refresh ring */
+"Live watts · next update in %ds · click to refresh now" = "Canlı watt · sonraki güncelleme %ds sonra · tıkla → şimdi yenile";
+
+/* Battery details popover */
+"Battery Details" = "Pil Bilgileri";
+"Full Charge Capacity" = "Tam Dolu Kapasite";
+"Design Capacity" = "Tasarım Kapasitesi";
+"Charge Cycles" = "Şarj Döngüsü";
+"Manufacture Date" = "Üretim Tarihi";
+"Battery Temperature" = "Pil Sıcaklığı";
+"Voltage" = "Voltaj";
+"Charging current" = "Şarj akımı";
+"Drawing" = "Çekim";
+"Discharging with" = "Deşarj akımı";
+"Full at" = "Tam doluluk";
+"Energy now" = "Şu anki enerji";
+"Low Power Mode" = "Düşük Güç Modu";
+"Enabled" = "Açık";
+"Disabled" = "Kapalı";
+"macOS estimate" = "macOS tahmini";
+"Serial" = "Seri No";
+"Could not read battery information." = "Pil bilgisi okunamadı.";
+"Refreshes every 15 seconds" = "Veri her 15 saniyede bir yenilenir";
+"Refresh now" = "Şimdi yenile";
+" (good)" = " (iyi)";
+" (fair)" = " (orta)";
+" (poor)" = " (zayıf)";
+
+/* About + Help */
+"Per-app battery & energy tracker for macOS.\nFind out who's draining your battery — looking back, not just right now.\n\nData stays on this Mac. Nothing is sent over the network." = "macOS için per-app pil ve enerji takibi.\nGeriye dönük: pilini kim yiyor, sadece şu an değil.\n\nVeri sadece bu Mac'te kalır. İnternete hiçbir şey gönderilmez.";
+"© 2026 — open source, free for personal use" = "© 2026 — açık kaynak, kişisel kullanım için";
+"OpenMacBattery Help" = "OpenMacBattery Yardımı";
+"Tells you what's draining your battery and which app is responsible — looking back, not just right now. Activity Monitor only knows the present moment; OpenMacBattery remembers the past." = "Pilini hangi uygulamanın yediğini geriye dönük gösterir. Activity Monitor sadece şu anı bilir; OpenMacBattery geçmişi de hatırlar.";
+"Quick Start" = "Hızlı Başlangıç";
+"Quitting an app" = "Uygulama kapatma";
+"Comparisons and warnings" = "Karşılaştırma ve uyarılar";
+"Joules vs scores?" = "Joule mü, skor mu?";
+"Where is the data?" = "Veriler nerede?";
+"Troubleshooting" = "Sorun giderme";
+"About OpenMacBattery" = "OpenMacBattery Hakkında";
+"Battery Details…" = "Pil Bilgileri…";
+"Refresh" = "Yenile";
+
+/* Settings */
+"Background tracking" = "Arkaplan takibi";
+"On — apps are sampled every minute." = "Açık — uygulamalar her dakika kaydediliyor.";
+"Off — no new data being collected." = "Kapalı — yeni veri toplanmıyor.";
+"Tracking" = "Takip";
+"Open log (Console.app)" = "Logu aç (Konsol.app)";
+"Open error log" = "Hata logunu aç";
+"Open data folder" = "Veri klasörünü aç";
+"Diagnostics" = "Tanılama";
+"Calibration" = "Kalibrasyon";
+"To convert to real joules, run a one-time 5-minute comparison against Apple's powermetrics. Requires sudo, run from Terminal:" = "Joule birimine geçmek için Apple'ın kendi powermetrics aracıyla bir kez 5 dakikalık bir karşılaştırma yapılır. Sudo şifresi ister, Terminal üzerinden çalıştır:";
+"Copy command" = "Komutu kopyala";
+"Remove background tracking entirely" = "Arkaplan takibini tamamen kaldır";
+"Advanced" = "İleri";
+"Background tracking removed." = "Arkaplan takibi kaldırıldı.";
+"Enabled." = "Etkinleştirildi.";
+"Disabled." = "Kapatıldı.";
+"Error" = "Hata";
+
+/* Onboarding */
+"Welcome to OpenMacBattery" = "OpenMacBattery'a hoş geldin";
+"Checks every running app on your Mac once per minute." = "Mac'inde çalışan tüm uygulamaları her dakika kontrol eder.";
+"Tells you which app drained your battery — looking back, not just now." = "Hangi uygulamanın ne kadar pil yediğini geriye dönük gösterir.";
+"Your data stays on this Mac. Nothing is sent over the network." = "Veri sadece bu Mac'te kalır. İnternete hiçbir şey gönderilmez.";
+"Uses almost no battery itself (~1-2 joules per hour)." = "Kendisi neredeyse hiç pil tüketmez (saatte ~1-2 joule).";
+"Background tracking enabled." = "Arkaplan takibi etkinleştirildi.";
+"Close" = "Kapat";
+"Install failed: %@" = "Kurulum başarısız: %@";
+"Try again" = "Tekrar dene";
+"Installing…" = "Kurulum yapılıyor…";
+"Enable background tracking" = "Arkaplan takibini etkinleştir";
+"Not now" = "Şimdi değil";
+"You can toggle this anytime in ⚙ Settings." = "İstediğin zaman ⚙ Ayarlar'dan tekrar açıp kapatabilirsin.";
+
+
+/* Language menu */
+"Language" = "Dil";
+"Use system language" = "Sistem dilini kullan";
+"Restart to change language" = "Dil değişikliği için yeniden başlat";
+"OpenMacBattery needs to restart for the new language to take effect." = "Yeni dilin geçerli olması için OpenMacBattery'ın yeniden başlatılması gerek.";
+"Restart Now" = "Şimdi Yeniden Başlat";
+"Later" = "Sonra";

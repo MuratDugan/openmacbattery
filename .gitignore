@@ -1,0 +1,46 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.pins
+*.xcodeproj
+DerivedData/
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+*.xcworkspace
+
+# Build outputs
+build/
+*.dmg
+*.app
+
+# Icon source files (only the final .icns is committed under assets/)
+ikon/
+
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+Icon
+
+# Logs
+*.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local secrets / env
+.env
+.env.local
+
+# Scratch
+/tmp/
+.tmp/
+
+# Custom build artifacts
+.netrc

@@ -1,0 +1,180 @@
+/* Español — Spanish */
+
+/* Energy levels */
+"High" = "Alto";
+"Medium" = "Medio";
+"Low" = "Bajo";
+"Minimal" = "Mínimo";
+
+/* Time ranges */
+"Last hour" = "Última hora";
+"Last 6 hours" = "Últimas 6 horas";
+"Today" = "Hoy";
+"This week" = "Esta semana";
+"This month" = "Este mes";
+
+/* Toolbar */
+"Range" = "Rango";
+"On battery only" = "Sólo con batería";
+"All measurements" = "Todas las mediciones";
+"Show system services" = "Mostrar servicios del sistema";
+"Settings…" = "Ajustes…";
+"Display options and settings" = "Opciones y ajustes";
+"Battery details (⌥⌘B)" = "Detalles de batería (⌥⌘B)";
+
+/* Sidebar */
+"%lld apps" = "%lld apps";
+"Collecting data" = "Recopilando datos";
+"OpenMacBattery is monitoring your apps in the background. First measurements will arrive within 1-2 minutes." = "OpenMacBattery está monitorizando tus apps en segundo plano. Las primeras mediciones llegarán en 1-2 minutos.";
+"%lld samples so far" = "%lld muestras hasta ahora";
+"Last sample %@" = "Última muestra %@";
+"No measurements yet" = "Aún sin mediciones";
+"refreshed %@" = "actualizado %@";
+"system" = "sistema";
+
+/* Context menu */
+"Quit %@" = "Salir de %@";
+"Force Quit" = "Forzar salida";
+"System services cannot be quit from here" = "Los servicios del sistema no se pueden cerrar aquí";
+"No running instance found" = "No se encontró instancia en ejecución";
+"Open in Activity Monitor" = "Abrir en Monitor de Actividad";
+"Show in Finder" = "Mostrar en Finder";
+"Force Quit %@?" = "¿Forzar salida de %@?";
+"Cancel" = "Cancelar";
+"Unsaved changes may be lost." = "Los cambios sin guardar pueden perderse.";
+
+/* Live watts */
+"Charging now (~%@ W in)" = "Cargando ahora (~%@ W de entrada)";
+"Drawing now: %@ watts" = "Consumo ahora: %@ vatios";
+
+/* Battery life */
+"%lld%% · charging — full in %@" = "%1$lld %% · cargando — completo en %2$@";
+"%lld%% · charging" = "%lld %% · cargando";
+"%lld%% · plugged in (not charging)" = "%lld %% · enchufado (sin cargar)";
+"%lld%% · ~%@ of battery left" = "%1$lld %% · ~%2$@ de batería restantes";
+"%lld%% · on battery" = "%lld %% · con batería";
+"Last hour avg: %.1f W" = "Promedio última hora: %.1f W";
+"macOS estimate: %@" = "Estimación de macOS: %@";
+"Capacity" = "Capacidad";
+"Health" = "Salud";
+"Cycles" = "Ciclos";
+"%d h %d min" = "%1$d h %2$d min";
+"%d min" = "%d min";
+
+/* Hero card */
+"%@: battery dropped %lld%% — mainly %@ (%lld%%)" = "%1$@: la batería bajó %2$lld %% — principalmente %3$@ (%4$lld %%)";
+"%@: battery dropped %lld%%" = "%1$@: la batería bajó %2$lld %%";
+"%@: plugged in the whole time — no battery use" = "%@: enchufado todo el tiempo — sin uso de batería";
+"%@: top consumer was %@ (%lld%%)" = "%1$@: el mayor consumidor fue %2$@ (%3$lld %%)";
+"%@: not enough data yet" = "%@: aún no hay suficientes datos";
+"on battery for %@" = "con batería durante %@";
+"plugged in for %@" = "enchufado durante %@";
+"asleep for %@" = "dormido durante %@";
+"battery %lld%% → %lld%%" = "batería %1$lld %% → %2$lld %%";
+
+/* Compare */
+"Compared to the previous %@" = "Comparado con %@ anterior";
+"Need a bit more data to compare with previous period" = "Se necesitan más datos para comparar con el período anterior";
+"%lld%% less battery used than the previous %@" = "Usaste %1$lld %% menos batería que el %2$@ anterior";
+"%lld%% more battery used than the previous %@" = "Usaste %1$lld %% más batería que el %2$@ anterior";
+"Similar to the previous %@ (%lld%% difference)" = "Similar al %1$@ anterior (%2$lld %% de diferencia)";
+
+/* Tip card */
+"You're on battery — %@ is using %lld%% of your battery load" = "Estás con batería — %1$@ está usando el %2$lld %% de la carga";
+"If it doesn't need to run in the background while on battery, consider quitting it." = "Si no necesita ejecutarse en segundo plano con batería, considera cerrarla.";
+
+/* Narrative */
+"%@ was active for %lld hours %lld minutes" = "%1$@ estuvo activa %2$lld horas %3$lld minutos";
+"%@ was active for %lld minutes" = "%1$@ estuvo activa %2$lld minutos";
+"Peak hour: around %@" = "Hora pico: alrededor de %@";
+
+/* Empty state */
+"Nothing to show in this range" = "Nada que mostrar en este rango";
+"Try a different time range from the toolbar." = "Prueba con un rango diferente desde la barra de herramientas.";
+"System" = "Sistema";
+
+/* Summary cards */
+"Battery share" = "Cuota de batería";
+"CPU time" = "Tiempo de CPU";
+"Wakeups" = "Despertares";
+
+/* Charts */
+"Consumption over time" = "Consumo a lo largo del tiempo";
+"No data in this range." = "Sin datos en este rango.";
+"Battery level" = "Nivel de batería";
+"No battery readings." = "Sin lecturas de batería.";
+"asleep" = "dormido";
+"on battery" = "con batería";
+"plugged in" = "enchufado";
+"Top consumers" = "Mayores consumidores";
+"No data." = "Sin datos.";
+
+/* Refresh ring */
+"Live watts · next update in %ds · click to refresh now" = "Vatios en vivo · próxima actualización en %ds · haz clic para actualizar";
+
+/* Battery details */
+"Battery Details" = "Detalles de batería";
+"Full Charge Capacity" = "Capacidad de carga completa";
+"Design Capacity" = "Capacidad de diseño";
+"Charge Cycles" = "Ciclos de carga";
+"Manufacture Date" = "Fecha de fabricación";
+"Battery Temperature" = "Temperatura de batería";
+"Voltage" = "Voltaje";
+"Charging current" = "Corriente de carga";
+"Drawing" = "Consumo";
+"Discharging with" = "Descargando a";
+"Full at" = "Completo en";
+"Energy now" = "Energía actual";
+"Low Power Mode" = "Modo de bajo consumo";
+"Enabled" = "Activado";
+"Disabled" = "Desactivado";
+"macOS estimate" = "Estimación de macOS";
+"Serial" = "Serie";
+"Refreshes every 15 seconds" = "Se actualiza cada 15 segundos";
+"Refresh now" = "Actualizar ahora";
+" (good)" = " (bueno)";
+" (fair)" = " (regular)";
+" (poor)" = " (pobre)";
+
+/* About + Help */
+"OpenMacBattery Help" = "Ayuda de OpenMacBattery";
+"About OpenMacBattery" = "Acerca de OpenMacBattery";
+"Battery Details…" = "Detalles de batería…";
+"Refresh" = "Actualizar";
+
+/* Settings */
+"Background tracking" = "Seguimiento en segundo plano";
+"On — apps are sampled every minute." = "Activado — las apps se muestrean cada minuto.";
+"Off — no new data being collected." = "Desactivado — no se recopilan datos nuevos.";
+"Tracking" = "Seguimiento";
+"Open log (Console.app)" = "Abrir registro (Consola.app)";
+"Open error log" = "Abrir registro de errores";
+"Open data folder" = "Abrir carpeta de datos";
+"Diagnostics" = "Diagnóstico";
+"Calibration" = "Calibración";
+"Copy command" = "Copiar comando";
+"Remove background tracking entirely" = "Eliminar seguimiento en segundo plano";
+"Advanced" = "Avanzado";
+
+/* Onboarding */
+"Welcome to OpenMacBattery" = "Te damos la bienvenida a OpenMacBattery";
+"Checks every running app on your Mac once per minute." = "Comprueba todas las apps de tu Mac cada minuto.";
+"Tells you which app drained your battery — looking back, not just now." = "Te dice qué app consumió tu batería — mirando atrás, no sólo ahora.";
+"Your data stays on this Mac. Nothing is sent over the network." = "Tus datos se quedan en este Mac. No se envía nada por la red.";
+"Uses almost no battery itself (~1-2 joules per hour)." = "Apenas usa batería (~1-2 julios por hora).";
+"Background tracking enabled." = "Seguimiento activado.";
+"Close" = "Cerrar";
+"Try again" = "Reintentar";
+"Installing…" = "Instalando…";
+"Enable background tracking" = "Activar seguimiento en segundo plano";
+"Not now" = "Ahora no";
+"You can toggle this anytime in ⚙ Settings." = "Puedes activarlo cuando quieras en ⚙ Ajustes.";
+
+
+/* Language menu */
+"Language" = "Idioma";
+"Use system language" = "Usar idioma del sistema";
+"Restart to change language" = "Reiniciar para cambiar el idioma";
+"OpenMacBattery needs to restart for the new language to take effect." = "OpenMacBattery debe reiniciarse para aplicar el nuevo idioma.";
+"Restart Now" = "Reiniciar ahora";
+"Later" = "Más tarde";

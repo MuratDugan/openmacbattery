@@ -1,0 +1,4 @@
+module CProcInfo {
+    header "shim.h"
+    export *
+}
