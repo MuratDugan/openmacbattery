@@ -143,12 +143,16 @@ final class AppModel: ObservableObject {
     private var liveTimer: Timer?
 
     init() {
+        // Timer closure'larında "weak self"i Task'a girmeden önce strong'a alıyoruz.
+        // Swift 6 strict-concurrency, mutable captured self'in concurrent context'te
+        // doğrudan kullanılmasına izin vermez; unwrap'leyince Task immutable constant kapatır.
         refreshTimer = Timer.scheduledTimer(withTimeInterval: 60, repeats: true) { [weak self] _ in
-            Task { @MainActor in self?.refreshNow() }
+            guard let self else { return }
+            Task { @MainActor in self.refreshNow() }
         }
-        // Canlı watt — 15 saniyede bir yenile (kendi tüketimi düşük tutmak için)
         liveTimer = Timer.scheduledTimer(withTimeInterval: 15, repeats: true) { [weak self] _ in
-            Task { @MainActor in self?.refreshLiveWatts() }
+            guard let self else { return }
+            Task { @MainActor in self.refreshLiveWatts() }
         }
         refreshLiveWatts()
     }
